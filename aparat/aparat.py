@@ -304,7 +304,7 @@ class Aparat(object):
         }
 
         if tags:
-            data['data[tags]'] = ','.join(tags)
+            data['data[tags]'] = '-'.join(tags)
         if allow_comment is not None:
             data['data[comment]'] = allow_comment
         if descreption is not None:
